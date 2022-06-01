@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+
+}
+
+.foto {
+    border-radius: 70px;
+}
+
+.lista-menu {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.menu {
+    background-color: #9c70ce;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #4641a4;
+}
+
+.intro {
+    font-family: 'ABeeZee', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    max-width: 490px;
+    text-align: center;
+}
+
+.intro-content {
+    background-color: #edeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 730px;
+    padding: 100px;
+}
+
+.intro-content figure {
+    margin-bottom: 20px;
+}
+
+section h1 {
+    font-size: 24px;
+    color: #04a192;
+    margin-right: 50px;
+}
+
+.subtitle {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    color: #cabdcb;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    /*como se fosse margin top e bottom 0, left e right auto */
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+#portfolio {
+    background-color: #EDEAEA;
+}
+
+.descricao {
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: 700;
+}
+
+.item {
+    margin-bottom: 30px;
+
+}
+
+
+#contato {
+    background-color: #8a5bc0;
+    height: 120px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+        /*text-align: center; */
+
+}
+
+#contato a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copy { 
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+
+
+
+/* Testando estilizações em aula, não subir esses codigos!
+body { 
+    background-color:rgb(216, 71, 14);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+footer a { 
+    color:rgb(236, 221, 234)
+}
+.formacao  { 
+    background-color:rgb(72, 223, 148);
+    color:rgb(119, 7, 100)
+}
+.formacao a { 
+    color:rgb(119, 7, 100)
+}
+.portfolio { 
+    background-color:rgb(87, 72, 223);
+    color:rgb(65, 13, 4)
+}
+.portfolio a{ 
+    color:rgb(65, 13, 4)
+}
+.bio { 
+    background-color:aliceblue
+}
+.bg-dark { 
+    background-color:rgb(4, 2, 24);
+    color:rgb(216, 208, 206)
+}
+.bg-dark a { 
+    color:rgb(216, 208, 206)
+}
+nav { 
+    background-color:rgb(4, 2, 24);
+    color:rgb(216, 208, 206);
+    border: 3px solid rgb(248, 246, 244);
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav a { 
+    color:rgb(216, 208, 206)
+}
+.foto { 
+    border-radius: 50%;
+    align-items: center;
+}
+.p-section { 
+    font-size: 20px;
+    color: purple;
+    background-color: green
+}
+/*
+section p { 
+    font-size: 20px;
+    color: rgb(224, 178, 224);
+    background-color: green
+}*/
